@@ -5,8 +5,9 @@ import { Link } from "react-router-dom";
 import GithubContext from "../../context/github/githubContext";
 
 const User = ({ match }) => {
-  const githubContext = useContext(GithubContext);
-  const { getUser, loading, user, repos, getUserRepos } = githubContext;
+  const { getUser, loading, user, repos, getUserRepos } = useContext(
+    GithubContext
+  );
 
   useEffect(() => {
     getUser(match.params.login);
