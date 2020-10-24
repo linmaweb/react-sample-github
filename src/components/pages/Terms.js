@@ -7,8 +7,7 @@ const Terms = () => {
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sequi, id
         assumenda eveniet iure repellat aperiam aliquid reiciendis ullam in
-        recusandae, dolorum laborum commodi laboriosam asperiores. Itaque ullam
-        a tempore?
+        recusandae, dolorum laborum commodi laboriosam asperiores.
       </p>
     </>
   );
