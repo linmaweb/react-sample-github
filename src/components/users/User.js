@@ -2,7 +2,7 @@ import React, { useEffect, useContext } from "react";
 import Spinner from "../layout/Spinner";
 import Repos from "../repos/Repos";
 import { Link } from "react-router-dom";
-import GithubContext from "../../context/github/githubContext";
+import GithubContext from "../../context/GithubContext";
 
 const User = ({ match }) => {
   const { getUser, loading, user, repos, getUserRepos } = useContext(

@@ -7,8 +7,8 @@ import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Terms from "./components/pages/Terms";
 import NotFound from "./components/pages/NotFound";
-import GithubState from "./context/github/GithubState";
-import AlertState from "./context/alert/AlertState";
+import GithubState from "./providers/GithubState";
+import AlertState from "./providers/AlertState";
 
 const App = () => {
   return (

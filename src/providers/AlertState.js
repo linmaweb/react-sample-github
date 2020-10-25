@@ -1,7 +1,7 @@
 import React, { useReducer } from "react";
-import AlertContext from "./alertContext";
-import AlertReducer from "./alertReducer";
-import { SET_ALERT, REMOVE_ALERT } from "../types";
+import AlertContext from "../context/AlertContext";
+import AlertReducer from "../reducers/alertReducer";
+import { SET_ALERT, REMOVE_ALERT } from "../reducers/types";
 
 const AlertState = (props) => {
   const initialState = null;
